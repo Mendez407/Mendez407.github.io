@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+.informacion{
+    display: flex;
+    justify-content: center;
+}
+.icono__top{
+    position: absolute;
+    
+}
+body{
+    height: 100vh;
+    place-content: center;
+    display: grid;
+    margin: auto;
+    background: #19a1ad;
+    overflow: hidden;
+}
+.bola_bottom{
+    position: absolute;
+    bottom: -100%;
+    right: -20%;
+}
+.bola_top{
+    position: absolute;
+    top: -90%;
+    left: -20%;
+}
+.burbujas img{
+    border-radius: 10px 10px 0px 0px;
+}
+section{
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.perfil__foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.perfil__foto img{
+    border: 3px solid white;
+    border-radius: 50px;
+    top: 94px;
+    position: absolute;
+}
+.info{
+    background: white;
+    height: max-content;
+}
+.nombre {
+    padding-top: 60px;
+}
+.nombre h3,h5{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.nombre h5{
+    color: rgb(106, 104, 104);
+}
+.nombre p{
+    color: grey;
+}
+.hobby h4 {
+    text-align: center;
+    color: black;
+}
+.hobby p{
+    color: rgb(106, 104, 104);
+}
+.hobby{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid darkgrey;
+}
